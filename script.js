@@ -34,6 +34,8 @@ function validaCPF(cpf) {
 }
 
 function validacao() {
+  document.getElementById("success").style.display = "none";
+  document.getElementById("error").style.display = "none";
   console.log("Validação iniciada");
   var cpf = document.getElementById("cpf_digitado").value;
   console.log(cpf);
